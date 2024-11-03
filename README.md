@@ -17,12 +17,8 @@ The detector works best for text of height 50px.
 Setting a scale != 1 automatically resizes the image before applying te detector.
 Example: Text height h is 100px in the original image. Set the scale to 0.5 so that detection happens at the ideal text size.
 
-![scale](./doc/scale.png)
-
 The second most important parameter for the detector is the margin. 
 It allows adding a few pixels (blue) around the detected words (red) which might improve reading quality.
-
-![scale](./doc/margin.png)
 
 For the line clustering algorithm the minimum number of words can be set with the parameter `min_words_per_line`.
 Lines which contain fewer words will be ignored.
